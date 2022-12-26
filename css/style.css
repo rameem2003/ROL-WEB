@@ -21,14 +21,18 @@ html{
     margin: 20px 0;
 }
 
+
 /* header */
 
 header{
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     z-index: 10000;
     background-color: yellow;
-    line-height: 70px;
+    /* line-height: 70px; */
 }
 
 header .container{
@@ -37,11 +41,32 @@ header .container{
     justify-content: space-between;
 }
 
+header .logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo #tog{
+    height: 43px;
+    width: 43px;
+    background: transparent;
+    border: 2px solid #cdababc7;
+    border-radius: 10px;
+    font-size: 25px;
+    display: none;
+}
+
 header .logo a{
     font-size: 50px;
     text-decoration: none;
     color: black;
     font-weight: bolder;
+}
+
+header .menu{
+    width: 70%;
 }
 
 header .menu ul{
@@ -319,3 +344,115 @@ footer .lower-footer h4{
     color: white;
 }
 /* footer end */
+
+
+
+/* responsive */
+@media screen and (max-width:500px) {
+    header .container{
+        display: block;
+    }
+
+    header .logo{
+        width: 100%;
+    }
+
+    header .logo #tog{
+        display: initial;
+        height: 50px;
+        width: 50px;
+        font-size: 30px;
+    }
+
+    header .menu{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: yellow;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: 0.5s linear;
+    }
+
+    header .menu.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header .menu ul{
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    header .menu ul li{
+        margin: 35px 0;
+    }
+
+    .banner{
+        margin-top: 75px;
+        height: 36vh;
+        background-position: top center;
+        background-attachment: initial;
+
+    }
+    .banner .container h1{
+        font-size: 35px;
+    }
+
+
+    .about .container{
+        display: block;
+    }
+
+    .about .container .left, .about .container .right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .about .container .left .img-frame{
+        width: 100%;
+        height: 210px;
+        margin-bottom: 20px;
+    }
+
+
+    .members .members-list{
+        display: block;
+    }
+
+    .members .members-list .member{
+        width: 100%;
+        margin: 20px auto;
+    }
+
+
+    .projects .project-box img{
+        height: 200px;
+    }
+
+    .project-inner h1{
+        font-size: 27px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
+    footer{
+        border-radius: 50px 50px 0 0;
+    }
+
+    footer .upper-footer .links ul{
+        padding: 0;
+    }
+
+    footer .upper-footer .links ul li {
+        margin: 0 10px;
+    }
+
+    footer .lower-footer h4{
+        font-size: 18px;
+    }
+    
+}
+/* responsive end */

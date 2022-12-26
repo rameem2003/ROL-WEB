@@ -135,3 +135,60 @@
 }
 
 /* hosting end */
+
+
+
+/* responsive */
+@media screen and (max-width: 500px) {
+    .allParts{
+        display: block;
+    }
+
+    .allParts .part{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .firmware .containt{
+        display: block;
+    }
+
+    .firmware .containt .left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .firmware .containt .right{
+        width: 100%;
+    }
+
+    .firmware .containt .right .developer{
+        display: block;
+    }
+
+    .firmware .containt .right .developer .member{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+
+    .hosting .github{
+        display: block;
+    }
+
+    .hosting .github .left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .hosting .github .left img{
+        width: 100%;
+    }
+
+    .hosting .github .right{
+        width: 100%;
+        text-align: center;
+    }
+
+}
+/* responsive end */
