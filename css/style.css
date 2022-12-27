@@ -91,7 +91,8 @@ header .menu ul li a{
 
 /* banner */
 .banner{
-    background-image: url('../assets/img/banner.jpg');
+    /* background-image: url('../assets/img/banner.jpg'); */
+    /* background: url('../assets/img/our_gallery/gallery3.jpg'); */
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
