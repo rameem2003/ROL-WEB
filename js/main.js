@@ -20,5 +20,5 @@ window.onload = () => {
     console.log(randomNumber);
 
 
-    bannerSection.style.backgroundImage = `url('../assets/img/our_gallery/${bannerPhotos[randomNumber]}')`
+    bannerSection.style.backgroundImage = `url('./assets/img/our_gallery/${bannerPhotos[randomNumber]}')`
 }
