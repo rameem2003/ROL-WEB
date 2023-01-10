@@ -53,6 +53,11 @@ const parts = [
         name : "DC Buzzer",
         photo : "../assets/img/projects_img/android_control_robot_car/buzzer.jpg"
     },
+
+    {
+        name : "ESP32 Camera",
+        photo : "../assets/img/projects_img/android_control_robot_car/esp32.jpg"
+    }
 ]
 
 
