@@ -48,14 +48,6 @@ const legends = [
     },
 
     {
-        name : "Maysha Siddiqi",
-        position : "Member",
-        img : "https://rameem2003.github.io/oursite/img/gallery/maysha.jpg",
-        facbook : "https://www.facebook.com/maysa.siddiq",
-        github : "",
-    },
-
-    {
         name : "Reetu Rahman",
         position : "Member",
         img : "https://rameem2003.github.io/oursite/img/gallery/ritu_rahman.jpg",
