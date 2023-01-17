@@ -177,6 +177,10 @@
         margin: 20px 0;
     }
 
+    .story iframe{
+        height: 168px;
+    }
+
     .firmware .containt{
         display: block;
     }
