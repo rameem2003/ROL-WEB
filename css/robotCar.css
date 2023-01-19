@@ -38,6 +38,12 @@
 }
 /* diagram end */
 
+.camera video{
+    width: 750px;
+    margin: 0 auto;
+    display: block;
+}
+
 
 /* firmware */
 .firmware .containt{
