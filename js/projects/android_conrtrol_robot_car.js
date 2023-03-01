@@ -57,6 +57,16 @@ const parts = [
     {
         name : "ESP32 Camera",
         photo : "../assets/img/projects_img/android_control_robot_car/esp32.jpg"
+    },
+
+    {
+        name : "Push Switch",
+        photo : "../assets/img/projects_img/android_control_robot_car/switch.jpg"
+    },
+
+    {
+        name : "LM2596 DC-DC Step Down Adjustable Power Supply Module",
+        photo : "../assets/img/projects_img/android_control_robot_car/dctodc.jpg"
     }
 ]
 
