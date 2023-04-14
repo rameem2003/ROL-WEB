@@ -22,7 +22,7 @@
 
 .app_body .left a{
     text-decoration: none;
-    background-color: green;
+    /* background-color: green; */
     color: white;
     padding: 10px 20px;
     border-radius: 30px;

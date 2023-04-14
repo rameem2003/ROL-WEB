@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>আমার যাকাত || ROL</title>
+    <link rel="shortcut icon" href="../../assets/img/logos/ROL1.png" type="image/x-icon">
 
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -21,6 +22,10 @@
         .app_body{
             background-color: rgb(152, 238, 163);
         }
+
+        .downloadBtn{
+            background-color: green;
+        }
     </style>
 </head>
 <body>
@@ -28,7 +33,10 @@
     <header>
         <div class="container">
             <div class="logo">
-                <a href="../../">ROL</a>
+                <a href="../../">
+                    <img src="../../assets/img/logos/ROL_app.jpg" alt="">
+                    <span>ROL</span>
+                </a>
 
                 <button id="tog"><i class="fa-solid fa-bars-staggered"></i></button>
             </div>
@@ -50,12 +58,13 @@
     <div class="container">
         <div class="app_body">
             <div class="left">
+                <img class="img-fluid" src="../../assets/img/projects_img/zakat_app/zakat.png" alt="">
                 <h1>" আমার যাকাত "</h1>
                 <h4>A simple zakat calculation app for <b> Android OS </b></h4>
                 <h4>Lite weight app and clean UI for better experience</h4>
                 <h4>Supports Android 7 and higher version of android</h4>
 
-                <a href="../android/apps/zakat_app.apk"><i class="fas fa-download"></i> Download App</a>
+                <a href="../android/apps/zakat_app.apk" class="downloadBtn"><i class="fas fa-download"></i> Download App</a>
             </div>
 
             <div class="right">

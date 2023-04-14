@@ -253,7 +253,7 @@ html{
     justify-content: center;
     flex-direction: column;
     border-radius: 10px;
-    display: none;
+    /* display: none; */
 }
 
 .projects .our_android_projects img{
