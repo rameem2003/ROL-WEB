@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App Gallery || ROL</title>
+    <title>আমার যাকাত || ROL</title>
     <link rel="shortcut icon" href="../../assets/img/logos/ROL1.png" type="image/x-icon">
 
     <!-- bootstrap -->
@@ -16,7 +16,19 @@
     <!-- local css -->
     <link rel="stylesheet" href="../../css/navber.css">
     <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/appGallery.css">
+    <link rel="stylesheet" href="../../css/app.css">
+
+    <style>
+        .app_body{
+            background-color: rgb(152, 214, 238);
+        }
+
+        .downloadBtn{
+            background-color: rgb(0, 60, 128);
+            pointer-events: none;
+            cursor: not-allowed;
+        }
+    </style>
 </head>
 <body>
     <!-- header -->
@@ -44,32 +56,25 @@
     </header>
     <!-- header end -->
 
+
     <div class="container">
-        <div class="apps_section">
-            <a href="./amar_zakat.html" class="app">
-                <img src="../../assets/img/projects_img/zakat_app/zakat.jpg" alt="">
-                <h3>Amar Zakat</h3>
-                <span>by Mahmood Hassan Rameem</span>
-            </a>
+        <div class="app_body">
+            <div class="left">
+                <img class="img-fluid" src="../../assets/img/projects_img/rollite/rolLite.png" alt="">
+                <h1>" ROL Lite "</h1>
+                <h4>A member information app for <b> Android OS </b></h4>
+                <h4>Lite weight app and clean UI for better experience</h4>
+                <h4>Supports Android 7 and higher version of android</h4>
 
-            <a href="./tasbih.html" class="app">
-                <img src="../../assets/img/projects_img/tasbih_app/tasbih.png" alt="">
-                <h3>Tasbih</h3>
-                <span>by Fahmida Yeasmin</span>
-            </a>
+                <a href="../android/apps/myZakat.apk" class="downloadBtn">Coming Soon</a>
+            </div>
 
-            <a href="./rollite.html" class="app">
-                <img src="../../assets/img/projects_img/rollite/rolLite.png" alt="">
-                <h3>ROL Lite</h3>
-                <span>by Jahedul Islam Rasel</span>
-            </a>
-
+            <div class="right">
+                <img src="../../assets/img/projects_img/rollite/app_ui_1.jpg" alt="">
+                <img src="../../assets/img/projects_img/rollite/app_ui_2.jpg" alt="">
+            </div>
         </div>
     </div>
-
-
-
-
 
     <!-- footer -->
     <footer>
