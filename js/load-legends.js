@@ -1,7 +1,7 @@
 const legends = [
     {
         name : "Fahmida Yeasmin",
-        position : "President & programmer",
+        position : "President & Developer",
         img : "https://rameem2003.github.io/oursite/img/gallery/fahmida.jpg",
         facbook : "https://www.facebook.com/fahmida.yeasmin.378",
         github : "https://github.com/Fahmida12345",
@@ -9,7 +9,7 @@ const legends = [
 
     {
         name : "M H Rameem",
-        position : "Member & Programmer",
+        position : "Member & Developer",
         img : "https://rameem2003.github.io/oursite/img/gallery/MAHMOOD%20HASSAN%20RAMEEM%201.jpg",
         facbook : "https://www.facebook.com/mahmood.rameem/",
         github : "https://github.com/rameem2003",
