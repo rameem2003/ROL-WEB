@@ -9,10 +9,11 @@ const bannerPhotos = [
   "gallery3.jpg",
   "gallery4.jpg",
   "gallery5.jpg",
+  "gallery6.jpg",
 ];
 
 window.onload = () => {
-  let randomNumber = Math.floor(Math.random() * 6) + 1;
+  let randomNumber = Math.floor(Math.random() * 7) + 1;
   console.log(randomNumber);
 
   bannerSection.style.backgroundImage = `url('./assets/img/our_gallery/${bannerPhotos[randomNumber]}')`;
